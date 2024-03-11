@@ -1,0 +1,23 @@
+.form-fit {
+	height: 95%;
+	padding: 25px;
+	width: 60%;
+	position: relative;
+	margin: auto;
+	background-color: var(--bgop-6);
+	border-radius: 15px;
+	z-index: 1;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+	.form-fit {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+	.form-fit {
+		width: 80%;
+	}
+}

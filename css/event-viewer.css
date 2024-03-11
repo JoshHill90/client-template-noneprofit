@@ -1,0 +1,49 @@
+.viewer-window {
+	min-height: 95vh;
+	width: 100%;
+}
+
+.menu-conent {
+	padding: 15px;
+	background-color: var(--lg-4);
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.event-viewer {
+	padding: 15px;
+	background-color: var(--bg-7);
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+}
+.event-list {
+	background-color: var(--bg-7);
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	border-radius: 20px;
+	position: relative;
+
+}
+
+.event-item {
+	background: linear-gradient(to right,var(--bg-6) 15%,var(--bg-7) 45%);
+	padding: 19px 5px;
+	border-radius: 13px;
+	text-decoration: none;
+	position: relative;
+	margin: auto !important;
+	color: var(--lg-7);
+	width: 80%;
+}
+
+.btn-ui {
+	background: linear-gradient(to right,var(--sc-2) ,var(--sc-4));
+	padding: 19px 5px;
+	border-radius: 13px;
+	text-decoration: none;
+	color: var(--lg-7);
+	width: 100%;
+}

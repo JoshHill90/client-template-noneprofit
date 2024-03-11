@@ -1,0 +1,270 @@
+2024-03-10 16:38:17,233 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\urls.py changed, reloading.
+2024-03-10 16:41:11,026 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\urls.py changed, reloading.
+2024-03-10 16:42:23,983 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 16:46:51,587 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 16:47:30,576 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 17:18:01,783 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\models.py changed, reloading.
+2024-03-10 17:21:21,379 [WARNING]: Not Found: /
+2024-03-10 17:23:09,100 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\admin.py changed, reloading.
+2024-03-10 17:23:21,240 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\admin.py changed, reloading.
+2024-03-10 17:24:01,661 [ERROR]: Internal Server Error: /admin/api_app/event/add/
+Traceback (most recent call last):
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 1941, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 952, in log_addition
+    object_repr=str(obj),
+                ^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\models.py", line 30, in __str__
+    return str(self.subject)
+               ^^^^^^^^^^^^
+AttributeError: 'Event' object has no attribute 'subject'
+2024-03-10 17:24:19,089 [ERROR]: Internal Server Error: /admin/api_app/event/add/
+Traceback (most recent call last):
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 1941, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rlve\Lib\site-packages\django\contrib\admin\options.py", line 952, in log_addition
+    object_repr=str(obj),
+                ^^^^^^^^
+  File "C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\models.py", line 30, in __str__
+    return str(self.subject)
+               ^^^^^^^^^^^^
+AttributeError: 'Event' object has no attribute 'subject'
+2024-03-10 17:24:41,081 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\models.py changed, reloading.
+2024-03-10 17:41:53,711 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:03,573 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:51,206 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:51,543 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:51,698 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:51,879 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:52,229 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:52,417 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:52,570 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:52,724 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:53,113 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:53,255 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:53,659 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:53,814 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:54,194 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:54,356 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:54,751 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:55,159 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:55,543 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:55,708 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:56,111 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:56,260 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:56,637 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:56,791 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:57,191 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:57,563 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:57,712 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:58,117 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:58,279 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:58,660 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:59,049 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:59,208 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:59,360 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:59,552 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:42:59,966 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:43:00,353 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ListSerializer 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:44:01,859 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 17:44:04,735 [ERROR]: Error in getting events 
+ Field name `subject` is not valid for model `Event`. 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:44:09,752 [ERROR]: Error in getting events 
+ Field name `subject` is not valid for model `Event`. 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:44:36,595 [ERROR]: Error in getting events 
+ Field name `subject` is not valid for model `Event`. 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:44:55,641 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\serializers.py changed, reloading.
+2024-03-10 17:44:58,592 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ReturnList 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:45:04,369 [ERROR]: Error in getting events 
+ the JSON object must be str, bytes or bytearray, not ReturnList 
+ request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:45:47,168 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 17:45:54,565 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:46:24,372 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 17:46:27,763 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:46:30,823 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:46:46,979 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:46:47,062 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 17:46:49,613 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:46:51,512 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 17:47:35,556 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:42:14,529 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:42:19,836 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:42:26,075 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:43:26,673 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not ReturnList ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:43:42,424 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:51:07,248 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:51:16,271 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:51:18,784 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not dict ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:51:23,591 [ERROR]: Error in getting events the JSON object must be str, bytes or bytearray, not dict ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:51:35,686 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:51:57,228 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:53:38,559 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:54:06,329 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:55:08,278 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:55:12,429 [ERROR]: Error in getting events In order to allow non-dict objects to be serialized set the safe parameter to False. ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:55:24,866 [ERROR]: Error in getting events In order to allow non-dict objects to be serialized set the safe parameter to False. ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:55:36,141 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:55:38,546 [ERROR]: Error in getting events In order to allow non-dict objects to be serialized set the safe parameter to False. ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:55:50,459 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:55:57,509 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 21:56:00,055 [ERROR]: Error in getting events In order to allow non-dict objects to be serialized set the safe parameter to False. ---> request infor <rest_framework.request.Request: GET '/api/v1/event/'>
+2024-03-10 21:56:11,838 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 22:11:17,995 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 22:12:27,160 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\api_app\views.py changed, reloading.
+2024-03-10 23:22:43,757 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\rl_worker\settings.py changed, reloading.
+2024-03-10 23:37:05,310 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\rl_worker\settings.py changed, reloading.
+2024-03-10 23:42:08,583 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\systems\kekeper.py changed, reloading.
+2024-03-10 23:42:53,875 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\rl_worker\settings.py changed, reloading.
+2024-03-10 23:43:19,500 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\systems\kekeper.py changed, reloading.
+2024-03-10 23:44:53,310 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\systems\kekeper.py changed, reloading.
+2024-03-10 23:54:17,740 [INFO]: C:\Users\joshu\Documents\Code Book\Websites\Silk Thread Dev - sites\client-sites\templatesd for clients\Community site\backend\rl_worker\rl_worker\settings.py changed, reloading.

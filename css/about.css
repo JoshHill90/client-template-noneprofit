@@ -1,0 +1,19 @@
+
+.about-conent-2 {
+	min-height: 30vh;
+}
+
+.section-color-1 {
+	padding: 15px;
+	height: 100%;
+	padding: 25px;
+	background-color: var(--mc-6);
+}
+
+.section-color-2 {
+	height: 100%;
+	padding: 25px;
+	border-radius: 12px;
+	background-color: var(--sc-6);
+}
+

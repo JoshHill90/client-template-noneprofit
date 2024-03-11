@@ -1,0 +1,10 @@
+.contact-conent {
+	min-height: 95vh;
+
+}
+
+.contact-color-form {
+	border-radius: 12px;
+	background-color: var(--mc-1-op);
+	padding: 15px;
+}
